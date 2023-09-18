@@ -1,9 +1,10 @@
 import * as React from 'react';
+import './contact.css';
 
 const Contact = () => {
     return (
         <>
-            <div className='container' style={{display:"flex", justifyContent:"center", flexDirection:"column"}}>
+            <div className='contact'>
                 <div className="mb-3">
                     <input type="email" className="form-control" id="exampleFormControlInput1" placeholder="name@example.com"/>
                 </div>

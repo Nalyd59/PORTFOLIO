@@ -1,0 +1,31 @@
+.dashadmin{
+    width: 80%;
+    margin: 10px auto;
+    background-color: beige;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px; 
+}
+.dashadmin .projet{
+    margin: 10px;
+    padding: 10px; 
+    border: 1px solid black;
+}
+.dashadmin .projet .modifier{
+    margin: 10px;
+    padding: 10px; 
+    border: 1px solid black;
+}
+.dashadmin .projet .modifier ul{
+    list-style-type: none;
+    padding: 0px;
+}
+.dashadmin .projet .modifier ul li{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+}

@@ -6,15 +6,7 @@
 }
 body{
     /*background: url(../assets/background.jpg) center/cover;*/
-    background-color: #3a3a3c;
-    color: #fff;
+    background-color: rgb(156, 154, 222);
+    color: #000;
     min-height: 100vh;
-}
-p {
-  color: #fff;
-}
-h1{
-  display: flex;
-  justify-content: center;
-  margin-top: 10px;
 }

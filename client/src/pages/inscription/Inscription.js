@@ -15,7 +15,7 @@ function Inscription() {
             const newUser = {
                 "prenom": data.prenom,
                 "nom": data.nom,
-                "email": data.email,
+                "mail": data.email,
                 "password": data.password
             }
             axios

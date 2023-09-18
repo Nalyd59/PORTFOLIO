@@ -9,6 +9,7 @@ const cookieParser = require('cookie-parser');
 const authRoutes = require('./routes/auth.route');
 const usersRoutes = require('./routes/users.route');
 const projetsRoutes = require('./routes/projets.route');
+const formationsRoutes = require('./routes/formations.route');
 const cors = require('cors');
 
 // Connection a la base de données
@@ -44,6 +45,7 @@ app.use(cors({
 app.use('/api', authRoutes);
 app.use('/users', usersRoutes);
 app.use('/projets', projetsRoutes);
+app.use('/formations', formationsRoutes);
 
 
 // Configuration et lancement du serveur

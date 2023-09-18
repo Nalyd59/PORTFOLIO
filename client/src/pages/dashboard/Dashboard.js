@@ -89,7 +89,7 @@ function Dashboard() {
                     <div style={{ color: '#000', display: "flex", flexDirection: "column", alignItems: 'center', backgroundColor: "#fff", borderRadius: "100px", margin:'10px'}}>
                         <h4>{commentaire.titreCommentaire} from {commentaire.auteurCommentaire}</h4>
                         <h6>{commentaire.textCommentaire}</h6>
-                        <span>{commentaire.dateCommentaire}</span>
+                        <p>{commentaire.dateCommentaire}</p>
                     </div>
                 </>)}
             </div>
